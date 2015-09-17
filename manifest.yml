@@ -1,0 +1,11 @@
+---
+applications:
+- memory: 256MB
+  path: .
+  host: obdirectory-ibm
+  name: obdirectory-ibm
+  domain: mybluemix.net
+  services:
+    - CBDDIR
+  instances: 1
+  command: node examples/start-server

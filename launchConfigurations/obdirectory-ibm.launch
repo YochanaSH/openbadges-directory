@@ -2,8 +2,8 @@
     "Params": {
         "DevMode": {
             "Instrumentation": {
-                "command": "",
-                "env": {"BLUEMIX_APP_MGMT_ENABLE": "devconsole+shell+inspector"},
+               "command": "",
+                "env": {"ENABLE_BLUEMIX_DEV_MODE": true},
                 "memory": "256M"
             },
             "Packager": "com.ibm.perfectstorm.cloudoe.packager.LiveEditDeploymentPackager"
