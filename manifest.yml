@@ -2,8 +2,8 @@
 applications:
 - memory: 256MB
   path: .
-  host: obdirectory-ibm
-  name: obdirectory-ibm
+  host: obdirectory-cloudant
+  name: obdirectory-cloudant
   domain: mybluemix.net
   services:
     - CBDDIR
